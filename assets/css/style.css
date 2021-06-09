@@ -1,0 +1,316 @@
+
+/* Structure of CSS document.
+
+- CSS variable/property definitions
+- global element properties
+- <main> properties
+- <header> properties
+- general <section> properties
+- about me <section>
+- work portfolio <section>
+- contact <section>
+- <footer> properties
+
+*/
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* css variables/properties */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+:root {
+    --header-size: 60px;
+    --border-radius: 15px;
+
+    --background-black: #1A1A1D;
+    --font-pink: #F64C72;
+    --font-cream: rgb(223, 223, 223);
+
+    --text-header: 'Shadows Into Light', cursive;
+    --text-normal: 'Newsreader', serif;
+    --line-height: 27px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*     Global properties     */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+* {
+    scroll-behavior: smooth;   /* adds slow scrolling while navigating around page */
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*           <main>          */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+main section:nth-child(odd) {background-color: #4E4E50}
+main section:nth-child(even) {background-color:#1A1A1D}
+
+h2 {
+    text-align: center;
+    font-size: var(--header-size);
+    font-family: var(--text-header);
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*         <header>          */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+header {
+    display: flex;
+    background-color: var(--background-black);
+    height: 95px;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: var(--text-header);
+    color: var(--font-pink);
+    margin: 10px;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 50px;
+    font-family: var(--text-header);
+    text-decoration: none;
+    color: var(--font-pink);
+}
+
+nav a:hover {
+    -webkit-transition: font-size 0.5s;
+    font-size: 55px;
+    color: var(--font-cream);
+    text-decoration: underline;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*       General <section>   */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.portfolio-section {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+section div:nth-child(1) {width: 35%;}
+section div:nth-child(2) {width: 60%;}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*   <section> - About Me    */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--text-normal);
+    color: var(--font-cream);
+}
+
+.about-me h2 {
+    color: var(--background-black);
+    margin-bottom: 40px;
+}
+
+.about-me img {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: var(--border-radius);
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.about-me p {
+    text-align: center;
+    font-size: 24px;
+    line-height: var(--line-height);
+    margin-bottom: 20px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: var(--border-radius);
+}
+
+.skill-list {
+    width: 33%;
+}
+
+.skill-list h4 {
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.skill-list li {
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* <section> - Work Portfolio */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#work-portfolio {
+    height: 2600px;
+    display: inline-block;
+    width: 100%
+}
+
+#work-portfolio h2 {
+    text-align: center;
+    font-size: var(--header-size);
+    color: var(--font-pink);
+}
+
+#work-cards {
+    width: 100%;
+}
+
+.card {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--font-cream);
+    margin: 10px;
+}
+
+.card img {
+    width: 600px;
+    height: 100%;
+    padding: 5px;
+    border-radius: var(--border-radius);
+    opacity: .95;
+}
+
+.card img:hover {
+    -webkit-transition: opacity 0.5s;
+    opacity: .5;
+}
+
+.card p {
+    width: 45%;
+    text-align: center;
+    line-height: var(--line-height);
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text h3 {
+    padding-bottom: 18px;
+    color: var(--font-pink);
+    font-family: var(--text-header);
+    font-size: 45px;
+}
+
+.card-text p {
+    width: 80%;
+    font-family: var(--text-normal);
+    font-size: 22px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: var(--font-pink);
+}
+
+.card-text a:hover {
+    -webkit-transition: opacity 0.5s;
+    opacity: 0.5;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*    <section> - Contact    */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+#contact {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#contact-info a:hover {
+    background-color: var(--font-cream);
+    border-radius: 50px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*         <footer>          */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+footer {
+    background-color: var(--background-black);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-cream);
+    font-family: var(--text-header);
+    font-size: 22px;
+}
+
+footer p:after {
+    content: ' Erich Purpur';
+    color: var(--font-pink);
+}
+
+#display-text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--font-pink);
+    font-family: var(--text-header);
+    visibility: hidden;
+}
+
+
+
+
+
+
+
