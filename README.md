@@ -17,9 +17,6 @@
   - [License](#License)
   - [Description](#Description)
   - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Contributions](#Contributions)
-  - [Tests](#Tests)
   - [Questions](#Questions)
 
   ## Description
@@ -29,20 +26,10 @@
   ## Installation
 
   Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
-
-    
-
-  ## Usage
-
   
-
-  ## Contributions 
-
+  ## Preview
   
-
-  ## Tests 
-
-  
+  ![](./assets/images/preview.png)  
 
   ## Questions 
 
