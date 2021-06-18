@@ -241,8 +241,9 @@
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
     .about-me img {
-        height: 280px;
-        width: 280px;
+        height: 250px;
+        width: 250px;
+        padding-top: 10px;
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -260,22 +261,15 @@
 
 @media screen and (max-width: 493px) {
 
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - About Me */
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~~*/
+    /*      <header>      */
+    /*~~~~~~~~~~~~~~~~~~~~*/
 
-    .about-me img {
-        height: 250px;
-        width: 250px;
-    }
+    nav a {font-size: 35px};
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* <section> - Work Portfolio */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-    #work-portfolio {
-        height: 3775px;
-    }
 
     .card {
         height: 600px;
@@ -288,6 +282,14 @@
 }
 
 @media screen and (max-width: 414px) {
+
+    /*~~~~~~~~~~~~~~~~~~~~*/
+    /*      <header>      */
+    /*~~~~~~~~~~~~~~~~~~~~*/
+
+    nav a {
+        font-size: 27px;
+    }
 
     /*~~~~~~~~~~~~~~~~~~~~~~*/
     /* <section> - About Me */
