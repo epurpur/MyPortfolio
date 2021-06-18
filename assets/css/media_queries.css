@@ -241,8 +241,9 @@
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
     .about-me img {
-        height: 280px;
-        width: 280px;
+        height: 250px;
+        width: 250px;
+        padding-top: 10px;
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -260,14 +261,11 @@
 
 @media screen and (max-width: 493px) {
 
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - About Me */
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~~*/
+    /*      <header>      */
+    /*~~~~~~~~~~~~~~~~~~~~*/
 
-    .about-me img {
-        height: 250px;
-        width: 250px;
-    }
+    nav a {font-size: 35px};
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* <section> - Work Portfolio */

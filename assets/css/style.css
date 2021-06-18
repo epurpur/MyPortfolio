@@ -100,7 +100,7 @@ nav a:hover {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*       General <section>   */
+/*     General <section>     */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
@@ -277,6 +277,43 @@ section div:nth-child(2) {width: 60%;}
     border-radius: 50px;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*    <section> - Now    */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#now h2 {
+    text-align: center;
+    font-size: var(--header-size);
+    color: var(--font-pink);
+}
+
+#now div {
+    width: 95%;
+}
+
+#now p {
+    color: var(--font-cream);
+    font-size: 24px;
+    line-height: var(--line-height);
+    text-align: center;
+}
+
+#now a {
+    text-decoration: none;
+    color: var(--font-pink);
+}
+
+#now i {
+    color: var(--font-pink);
+    font-size: 40px;
+}
+
+#now-categories {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*         <footer>          */
@@ -284,7 +321,7 @@ section div:nth-child(2) {width: 60%;}
 
 
 footer {
-    background-color: var(--background-black);
+    background-color: #4E4E50;
     height: 50px;
     display: flex;
     justify-content: center;
