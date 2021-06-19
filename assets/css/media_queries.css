@@ -203,8 +203,17 @@
     /*~~~~~~~~~~~~~~~~~~~~~*/
 
     #contact {
-        height: 275px;
+        height: 300px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1300px;
+    }
+
 }
 
 @media screen and (max-width: 695px) {
@@ -219,6 +228,18 @@
 
     .card {
         height: 550px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1100px;
+    }
+
+    table td {
+        font-size: 16px;
     }
 }
 
@@ -257,6 +278,19 @@
     .card {
         height: 570px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    table {
+        width: 95%
+    }
+
+    table td {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 493px) {
@@ -284,6 +318,14 @@
         height: 275px;
     }
 }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*  <section> - Now    */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #contact {
+        height: 500px;
+    }
 
 @media screen and (max-width: 414px) {
 
