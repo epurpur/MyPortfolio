@@ -305,10 +305,6 @@
     /* <section> - Work Portfolio */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    #work-portfolio {
-        height: 3775px;
-    }
-
     .card {
         height: 600px;
     }
@@ -317,15 +313,26 @@
         width: 350px;
         height: 275px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1300px;
+    }
+
+    #now h2 {
+        font-size: 35px;
+    }
+
+    #now p {
+        font-size: 12px;
+    }
+
 }
 
-    /*~~~~~~~~~~~~~~~~~~~~~*/
-    /*  <section> - Now    */
-    /*~~~~~~~~~~~~~~~~~~~~~*/
 
-    #contact {
-        height: 500px;
-    }
 
 @media screen and (max-width: 414px) {
 
@@ -387,30 +394,12 @@
     .card-text h3 {
         font-size: 35px;
     }
-}
 
-@media screen and (max-width: 350px) {
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
 
-
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - About Me */
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-
-    #about-me-section {
-        height: 750px;
+    #now {
+        height: 1400px;
     }
-
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - Work Portfolio */
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-    #work-portfolio {
-        height: 3850px;
-    }
-
-    .card {
-        margin-bottom: 20px;
-        padding-top: 30px;
-    }
-
 }
