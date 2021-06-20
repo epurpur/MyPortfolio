@@ -203,8 +203,17 @@
     /*~~~~~~~~~~~~~~~~~~~~~*/
 
     #contact {
-        height: 275px;
+        height: 300px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1300px;
+    }
+
 }
 
 @media screen and (max-width: 695px) {
@@ -219,6 +228,18 @@
 
     .card {
         height: 550px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1100px;
+    }
+
+    table td {
+        font-size: 16px;
     }
 }
 
@@ -257,6 +278,19 @@
     .card {
         height: 570px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    table {
+        width: 95%
+    }
+
+    table td {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 493px) {
@@ -271,10 +305,6 @@
     /* <section> - Work Portfolio */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    #work-portfolio {
-        height: 3775px;
-    }
-
     .card {
         height: 600px;
     }
@@ -283,7 +313,26 @@
         width: 350px;
         height: 275px;
     }
+
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+
+    #now {
+        height: 1300px;
+    }
+
+    #now h2 {
+        font-size: 35px;
+    }
+
+    #now p {
+        font-size: 12px;
+    }
+
 }
+
+
 
 @media screen and (max-width: 414px) {
 
@@ -345,30 +394,12 @@
     .card-text h3 {
         font-size: 35px;
     }
-}
 
-@media screen and (max-width: 350px) {
+    /*~~~~~~~~~~~~~~~~~~~~~*/
+    /*   <section> - Now   */
+    /*~~~~~~~~~~~~~~~~~~~~~*/
 
-
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - About Me */
-    /*~~~~~~~~~~~~~~~~~~~~~~*/
-
-    #about-me-section {
-        height: 750px;
+    #now {
+        height: 1400px;
     }
-
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    /* <section> - Work Portfolio */
-    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-    #work-portfolio {
-        height: 3850px;
-    }
-
-    .card {
-        margin-bottom: 20px;
-        padding-top: 30px;
-    }
-
 }
